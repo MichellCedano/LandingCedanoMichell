@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!-- Michell Cedano Lopez 00000233230 -->
+<html>
+    <head>
+        <title>Asignación 4 (⁠｡⁠•̀⁠ᴗ⁠-⁠)⁠✧</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-10"/>
+        <style>
+            body{
+                text-align:center;
+                background-color: #f2e357;
+                background-size:auto;
+            }
+            .titulo{
+                color:white;
+            }
+            .fotos{
+                width:300px; 
+                height:400px;    
+            }
+            .icon{
+                width:100px; 
+                height:100px;   
+            }
+            .boxLat{
+                width:auto; 
+                height:auto;
+                background-color: wheat;
+            }
+            .box1{
+                background-color:white;
+                background-size:600px;
+            }
+            .box2{
+                background-color:#f2e357;
+                width:600px; 
+                height:600px;
+                margin-left: 220px;
+                padding-left: 150px;
+                padding-right: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            
+            <img class="icon" src="img/iswITSON.jpg" alt="Logo ITSON"/>
+            <br>
+            <h1>Contactame</h1>
+        </header>
+        <div class="boxLat">
+        <nav>
+            <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="aficiones.html">Aficiones</a></li>
+                    <li><a href="contactame.html">Contacatame</a></li>
+                    <li><a href="horario.html">Horario</a></li>
+                    <li><a href="descripcion.html">Descripción</a></li>
+            </ul>
+        </nav>
+        </div>    
+        
+        <div class="box1">
+            <form name="sitio" action="index.html" method="post">
+                
+                <h3>Nombre:</h3>
+                <input type="text" name="texto" required/>
+                <br>
+                
+                <h3>Dirección:</h3>
+                <input type="text" name="texto"/>
+                <br>
+                <br>  
+                
+                <h3>Email:</h3>
+                <input type="email" name="email" placeholder="mail@gmail.com" required/>
+                <br>
+                <br>  
+                
+                <h3>¿Estudias?:</h3>
+                <input type="radio" name="estudio" value="Si" required/>Si
+                <input type="radio" name="estudio" value="No" required/>No
+                <br>
+                
+                <h3>Gustos musicales favoritos:</h3>
+                <input type="checkbox" name="musica1" value="Kpop"/> Kpop
+                <input type="checkbox" name="musica2" value="Jpop"/> Jpop
+                <input type="checkbox" name="musica3" value="Jrock"/> Jrock
+                <input type="checkbox" name="musica4" value="Rock" /> Rock
+                <input type="checkbox" name="musica5" value="Jazz"/> Jazz
+                <br>
+                <br>  
+                
+                <h3>Fecha de Cumpleaños</h3>
+                <input type="date" name="fecha" required/>
+                <br>
+                <br>  
+                
+                <h3>Mascotas</h3>
+                <select name="mascotas" size="2">
+                    <option>perro</option>
+                    <option>gato</option>
+                    <option>cuyo</option>
+                    <option>pajaro</option>
+                </select>
+                <br>   
+                <br>  
+                
+                <h3>Redes sociales tuyas:</h3>
+                <input type="url" name="url1" placeholder="instagram" required/>
+                <input type="url" name="url2" placeholder="twitter" required/>
+                <input type="url" name="url3" placeholder="tiktok" required/>
+                <br>
+                <br>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="nuevo" />
+                <br>
+            </form>
+            <br>
+        </div>
+        
+    </body>
+    <footer>
+        <h3>&copy;Copyright Michell Cedano López - 00000233230
+    </footer>
+</html>
